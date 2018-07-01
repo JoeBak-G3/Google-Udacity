@@ -15,5 +15,5 @@ For specific, detailed instructions, look at the project instructions in the [Ud
 
 This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
 
-This is my link
+This is my link to the google udacity pixel art maker
 https://joebak-g3.github.io/udacity-final-project-pixel-art-maker/
