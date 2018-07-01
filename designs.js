@@ -26,7 +26,13 @@ function makeGrid(a,b){
 	$('.gridCell').click(function(event){
 		// Select color input
 		var colorPicker = $('#colorPicker').val();
-		$(event.target).css('background-color',colorPicker);
+
+		if ($(this).attr('style')) {
+			$(this).removeAttr('style');
+		}
+		else {
+			$(event.target).css('background-color',colorPicker);
+		}
 	});
 }
 
